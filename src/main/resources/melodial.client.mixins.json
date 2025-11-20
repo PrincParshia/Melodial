@@ -1,0 +1,17 @@
+{
+	"required": false,
+	"package": "princ.melodial.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+        "MusicsMixin",
+		"MusicManagerAccessor",
+		"MusicManagerMixin",
+		"MinecraftMixin",
+		"SoundEngineAccessor",
+		"SoundManagerAccessor",
+		"SoundManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
